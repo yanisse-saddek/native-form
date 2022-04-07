@@ -14,13 +14,15 @@ export default function App() {
   
   const styles = StyleSheet.create({
     input : {
-      border:`1px solid  ${email.length>8?"green":"red"}`,
+      borderWidth:1,
+      borderColor:`${email.length>8?"green":"red"}`,
       width:300,
       height:40,
       borderRadius:30,
     },
     inputPass : {
-      border:`1px solid ${password.length>8?"green":"red"}`,
+      borderWidth:1,
+      borderColor:`${password.length>8?"green":"red"}`,
       width:300,
       height:40,
       borderRadius:30,
